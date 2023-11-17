@@ -1,36 +1,71 @@
-# This is a basic workflow to help you get started with Actions
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
 
-name: CI
+<h1></h1>
+<p>
+</p>
 
-# Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deck Del Rosario - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: orange;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: orange;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Deck Del Rosario's Personal Webpage</h1>
+        <p></p>
+    </header>
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm Deck Del Rosario. I'm a personable, driven and knowledgeable sales associate with six years of experience in providing tailored recommendations to customers. My sales expertise has helped companies increase revenues by 15% year-over-year. My values regarding personalized experiences and understanding my customers can help companies improve their sales performance and exceed sales goals. </p>
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+        <h2>Interests</h2>
+        <ul>
+            <li>Exploring Nature</li>
+            <li>Creating interactive course maps</li>
+            <li>Building and tinkering</li>
+            <li>Meeting fellow sales</li>
+            <li>Online Games
+        </ul>
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+        <h2>Contact Me</h2>
+        <p>If you're interested in learning more about basic of sales in  or just want to chat, feel free to reach out to me at rdelrosario1869@gmail.com. You can also connect with me on Obanana Corp.</p>
+    </div>
+</body>Copyright 2023 DeckdelRosario
+</html>
